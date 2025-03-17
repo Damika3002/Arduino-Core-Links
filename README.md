@@ -1667,7 +1667,7 @@ If you find any broken or outdated links, please let me know so I can update or 
 If you use or share this list, please include proper attribution by linking back to this repository and crediting the original author:
 
 > Created by [T.G Damika Akalanka](https://github.com/Damika3002)  
-> Original source: [Arduino-Board-Support-List](https://github.com/Damika3002/Arduino-Core-Links)
+> Original source: [Arduino-Core-Links](https://github.com/Damika3002/Arduino-Core-Links)
 
 For more details, see the [LICENSE](https://github.com/Damika3002/Arduino-Core-Links?tab=MIT-1-ov-file) file.
 
