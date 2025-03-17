@@ -13,21 +13,172 @@ Welcome to the **Ultimate List of Arduino Board Manager URLs**! 🎉 This guide 
 5. Click **OK** and restart the **Boards Manager**.
 
 ---
-## 🌍 List of Commonly Used Boards in Arduino IDE
+## 🌍 List of Most Commonly Used Boards in Arduino IDE
 
 Below is a curated list of the most commonly used board package URLs for the Arduino IDE. These packages support popular development boards and platforms, ensuring compatibility with the latest features and libraries. ✨ You can copy all the URLs at once using the single-line format provided below.
 
-### 🌟 <span style="color: #FFAB91;">Common Board Package URLs</span>
+
+<details>
+<summary>✨ <b style="color: #FFAB91;">ESP8266 Boards</b> (<code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code>)</summary>
+
+This package supports **ESP8266-based boards**, including:
+- 🌟 NodeMCU (various versions)
+- 🌟 Wemos D1 Mini
+- 🌟 Generic ESP8266 modules
+- 🌟 Other ESP8266-based boards
+
+**Why Use It?**  
+🔥 Perfect for WiFi-enabled projects like IoT devices, smart home automation, and web servers.  
+[📚 Learn More](http://arduino.esp8266.com/)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #B2EBF2;">Adafruit Boards</b> (<code>https://adafruit.github.io/arduino-board-index/package_adafruit_index.json</code>)</summary>
+
+This package supports **Adafruit's range of boards**, including:
+- 🌟 Adafruit Feather series (e.g., Feather M0, Feather M4)
+- 🌟 Adafruit ItsyBitsy series (e.g., ItsyBitsy M0, ItsyBitsy M4)
+- 🌟 Adafruit Metro series (e.g., Metro M0, Metro M4)
+- 🌟 Adafruit Trinket M0
+- 🌟 Adafruit QT Py
+
+**Why Use It?**  
+🔥 Ideal for compact, low-power projects with advanced features like USB and wireless connectivity.  
+[📚 Learn More](https://www.adafruit.com/)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #CE93D8;">ESP32 Boards</b> (<code>https://dl.espressif.com/dl/package_esp32_index.json</code>)</summary>
+
+This package supports **ESP32-based boards**, including:
+- 🌟 ESP32 DevKit series
+- 🌟 TTGO boards (e.g., TTGO T-Display, TTGO LoRa)
+- 🌟 Wemos Lolin32
+- 🌟 Other ESP32-based boards
+
+**Why Use It?**  
+🔥 Great for high-performance IoT projects with dual-core processors, Bluetooth, and WiFi.  
+[📚 Learn More](https://www.espressif.com/)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #A5D6A7;">Official Arduino Boards</b> (<code>https://downloads.arduino.cc/packages/package_index.json</code>)</summary>
+
+This package supports **official Arduino boards**, including:
+- 🌟 Arduino Uno
+- 🌟 Arduino Mega 2560
+- 🌟 Arduino Nano
+- 🌟 Arduino Leonardo
+- 🌟 Arduino Due
+- 🌟 Arduino MKR series (e.g., MKR WiFi 1010, MKR Zero)
+
+**Why Use It?**  
+🔥 The default package for all official Arduino boards. Essential for beginners and classic Arduino projects.  
+[📚 Learn More](https://www.arduino.cc/)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #81D4FA;">Seeed Studio Boards</b> (<code>https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json</code>)</summary>
+
+This package supports **Seeed Studio's range of boards**, including:
+- 🌟 Seeeduino XIAO (SAMD21-based)
+- 🌟 Seeeduino V4.2 (ATmega328P)
+- 🌟 Seeeduino Mega (ATmega2560)
+- 🌟 Wio Terminal (SAMD51-based with LCD and wireless connectivity)
+
+**Why Use It?**  
+🔥 Perfect for compact, modular projects with Grove ecosystem compatibility.  
+[📚 Learn More](https://www.seeedstudio.com/)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #FFCCBC;">STM32 Boards</b> (<code>https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json</code>)</summary>
+
+This package supports **STM32-based boards**, including:
+- 🌟 STM32 Nucleo boards (e.g., Nucleo F103RB, Nucleo F401RE)
+- 🌟 STM32 Discovery boards (e.g., STM32F3Discovery, STM32F4Discovery)
+- 🌟 Generic STM32 boards (e.g., Blue Pill, Black Pill)
+- 🌟 Maple Mini clones
+
+**Why Use It?**  
+🔥 Ideal for high-performance applications with ARM Cortex-M cores.  
+[📚 Learn More](https://github.com/stm32duino)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #FFB74D;">ATtiny Microcontrollers</b> (<code>https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json</code>)</summary>
+
+This package supports **ATtiny microcontrollers**, including:
+- 🌟 ATtiny85
+- 🌟 ATtiny84
+- 🌟 ATtiny45
+- 🌟 ATtiny44
+
+**Why Use It?**  
+🔥 Perfect for small-footprint, low-power projects like wearables and simple sensors.  
+[📚 Learn More](https://github.com/damellis/attiny)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #E1BEE7;">SparkFun Boards</b> (<code>https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json</code>)</summary>
+
+This package supports **SparkFun's range of boards**, including:
+- 🌟 SparkFun RedBoard series
+- 🌟 SparkFun Pro Micro
+- 🌟 SparkFun Qwiic-enabled boards
+
+**Why Use It?**  
+🔥 Great for modular projects with SparkFun's Qwiic ecosystem for plug-and-play sensors and modules.  
+[📚 Learn More](https://www.sparkfun.com/)
+</details>
+
+---
+
+<details>
+<summary>✨ <b style="color: #C5E1A5;">Teensy Boards</b> (<code>https://www.pjrc.com/teensy/package_teensy_index.json</code>)</summary>
+
+This package supports **Teensy boards**, including:
+- 🌟 Teensy LC
+- 🌟 Teensy 3.x series (e.g., Teensy 3.2, Teensy 3.6)
+- 🌟 Teensy 4.x series (e.g., Teensy 4.0, Teensy 4.1)
+
+**Why Use It?**  
+🔥 Ideal for high-performance projects requiring USB, CAN bus, and advanced peripherals.  
+[📚 Learn More](https://www.pjrc.com/teensy/)
+</details>
+
+---
+
+### 🌟 <span style="color: #FFAB91;">Most Common Board Package URLs</span>
 
 #### **URLs**
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://adafruit.github.io/arduino-board-index/package_adafruit_index.json,https://dl.espressif.com/dl/package_esp32_index.json,https://downloads.arduino.cc/packages/package_index.json,https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json,https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json,https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json,https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json,https://www.pjrc.com/teensy/package_teensy_index.json
 ```
 
+---
+
+### 👉 Ready to Get Started?
+
+Copy the URLs above, paste them into the **"Additional Boards Manager URLs"** field in the Arduino IDE, and start exploring the world of microcontrollers! 🌟
 
 ---
 
-## 🐱‍👤 List of Third-Party Boards & URLs
+## 🐱‍👤 Full List of Third-Party Boards & URLs
 <details>
 <summary>✨ Expand for Details</summary>
 
@@ -1516,7 +1667,7 @@ If you find any broken or outdated links, please let me know so I can update or 
 If you use or share this list, please include proper attribution by linking back to this repository and crediting the original author:
 
 > Created by [T.G Damika Akalanka](https://github.com/Damika3002)  
-> Original source: [Arduino-Board-Support-List](https://github.com/Damika3002/Arduino-Board-Support-List)
+> Original source: [Arduino-Board-Support-List](https://github.com/Damika3002/Arduino-Core-Links)
 
 For more details, see the [LICENSE](LICENSE) file.
 
